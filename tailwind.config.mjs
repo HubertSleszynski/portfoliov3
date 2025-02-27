@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -23,7 +24,7 @@ export default {
     extend: {
       colors: {
         primary: "#10151f",
-        secondary: "#475467",
+        secondary: "475467",
         accent: {
           DEFAULT: "#7edad2",
           hover: "#79d3cc",
@@ -34,5 +35,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };

@@ -19,7 +19,14 @@ const links = [
   },
 ];
 
-const Nav = ({ containerStyles, listStyles, linkStyles, spy }) => {
+const Nav = ({
+  containerStyles,
+  listStyles,
+  linkStyles,
+  spy,
+  showMenu,
+  setShowMenu,
+}) => {
   return (
     <nav className={containerStyles}>
       <ul className={listStyles}>

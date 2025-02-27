@@ -23,6 +23,9 @@ const FixedMenu = () => {
     if (isMounted) {
       const handleScroll = () => {
         setShowMenuButton(window.scrollY > 150);
+        if (window.scrollY < 150) {
+          setShowMenu(false);
+        }
       };
       if (!isMobile) {
         window.addEventListener("scroll", handleScroll);

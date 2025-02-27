@@ -33,6 +33,9 @@
   .btn-accent {
     @apply bg-accent hover:bg-accent-hover text-white;
   }
+  .btn-primary {
+    @apply bg-primary text-white;
+  }
   .input,
   .textarea {
     @apply w-full outline-none border border-[#d0d5dd] focus:border-accent rounded-lg placeholder:text-[#667085];
@@ -43,7 +46,7 @@
   .textarea {
     @apply resize-none p-[14px];
   }
-}
-.active {
-  @apply text-accent transition-all duration-200;
+  .active {
+    @apply text-accent transition-all duration-200;
+  }
 }

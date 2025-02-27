@@ -1,8 +1,18 @@
+import AnimatedText from "./AnimatedText";
+import Cards from "./cards/Cards";
+
 const Journey = () => {
   return (
-    <section className="h-[3000px]" id="journey">
-      Journey
+    <section id="journey">
+      <div className="container mx-auto">
+        <AnimatedText
+          text="My Professional Journey"
+          textStyle="h2 mb-[30px] text-center"
+        />
+        <Cards />
+      </div>
     </section>
   );
 };
+
 export default Journey;
