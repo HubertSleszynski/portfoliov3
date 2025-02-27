@@ -2,6 +2,7 @@
 
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import FixedMenu from "@/components/FixedMenu";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Journey from "@/components/Journey";
@@ -19,8 +20,9 @@ const Home = () => {
     loadLocomotiveScroll();
   }, []);
   return (
-    <div>
+    <>
       <Hero />
+      <FixedMenu />
       <Services />
       <About />
       <Journey />
@@ -28,7 +30,7 @@ const Home = () => {
       <Testimonials />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 };
 export default Home;

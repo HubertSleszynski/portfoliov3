@@ -4,10 +4,11 @@ import { TypeAnimation } from "react-type-animation";
 import { Link as ScrollLink } from "react-scroll";
 import RotatingShape from "./RotatingShape";
 import Header from "./Header";
+import Stats from "./stats/Stats";
 
 const Hero = () => {
   return (
-    <section className="h-[800px] relative bg-accent/10 xl:bg-white">
+    <section className="h-[800px] relative bg-accent/10 xl:bg-white" id="home">
       <Header />
       <div className="container mx-auto h-full">
         <div className="relative z-20 h-full w-ful xl:max-w-[768px] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-10">
@@ -15,7 +16,16 @@ const Hero = () => {
             <span className="text-accent">I Build And</span> Design Powerful
             <TypeAnimation
               preRenderFirstString={true}
-              sequence={["Websites", 2000, "Apps", 2000]}
+              sequence={[
+                "Websites",
+                2000,
+                "Apps",
+                2000,
+                "Platforms",
+                2000,
+                "Solutions",
+                2000,
+              ]}
               speed={50}
               repeat={Infinity}
               wrapper="span"
@@ -30,14 +40,13 @@ const Hero = () => {
           <ScrollLink to="contact" smooth>
             <button className="btn btn-accent mb-8">Contact me</button>
           </ScrollLink>
-          <div>stats</div>
-          {/* image */}
+          <Stats />
         </div>
         <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-accent">
           <div className="absolute w-[558px] h-[642px] left-[6.5vw] bottom-0 z-40">
             <Image
               src="/assets/hero/dev.png"
-              alt="developer picture"
+              alt=""
               fill
               priority
               quality={100}

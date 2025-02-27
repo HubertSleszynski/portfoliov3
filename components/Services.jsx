@@ -25,18 +25,18 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services">
+    <section>
       <div className="container mx-auto">
         <ul className="relative z-40 -top-12 left-0 grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center lg:place-items-stretch ">
           {services.map((item, index) => (
             <li
-              className="bg-white shadow-custom max-w-[350px] xl:max-w-none p-6 rounded-lg"
+              className="bg-white shadow-custom max-w-[350px] md:max-w-none xl:max-w-none p-6 rounded-lg"
               key={index}
             >
               <div>
                 <Image
                   src={item.icon}
-                  alt="service-image"
+                  alt=""
                   width={48}
                   height={48}
                   className="mb-4"

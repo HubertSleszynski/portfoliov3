@@ -1,4 +1,8 @@
 const Journey = () => {
-  return <div>Journey</div>;
+  return (
+    <section className="h-[3000px]" id="journey">
+      Journey
+    </section>
+  );
 };
 export default Journey;
