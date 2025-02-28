@@ -15,9 +15,23 @@ const Card = ({
   course,
 }) => {
   return (
-    <div className="w-full h-[300px] sm:h-[470px] flex items-center top-12 sticky overflow-hidden">
-      <div className="w-full h-[270px] sm:h-[440px] border border-accent/20 bg-[#f4ffff] rounded-lg">
-        <div className="flex flex-col h-full gap-12">
+    <div
+      className={`w-full h-[300px] flex items-center top-12 sticky overflow-hidden ${
+        type === "skill"
+          ? "h-[470px] md:h-[450px] lg:h-[350px] xl:h-[300px]"
+          : ""
+      }`}
+    >
+      {/* <div className="w-full h-[300px] flex items-center top-12 sticky overflow-hidden"> */}
+      {/* className={`w-full lg:h-[270px] h-[270px] border border-accent/20 bg-[#f4ffff] rounded-lg ${type === 'skill' ? 'h-[300px]' : ''}`} */}
+      <div
+        className={`w-full h-[270px] border border-accent/20 bg-[#f4ffff] rounded-lg ${
+          type === "skill"
+            ? "h-[440px] md:h-[420px] lg:h-[320px] xl:h-[270px]"
+            : ""
+        }`}
+      >
+        <div className="flex flex-col h-full">
           <div className="w-full h-[80px] xl:h-[68px] bg-white flex flex-col xl:flex-row justify-center xl:justify-between items-center px-6 md:px-[84px] rounded-tl-lg rounded-tr-lg">
             <div className="flex gap-2">
               <Image
@@ -47,12 +61,12 @@ const Card = ({
             </p>
           </div>
           {type === "skill" ? (
-            <div className="grid md:grid-cols-9 sm:grid-cols-3 gap-4 place-items-center">
+            <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 md:gap-4 gap-8 place-items-center my-12">
               {icons &&
                 icons.map((item, index) => (
                   <div
                     key={index}
-                    className="w-max h-full xl:w-[100px] relative flex justify-center items-center text-center"
+                    className="w-full xl:w-[100px] relative flex justify-center items-center text-center"
                   >
                     <div className="text-5xl text-primary/90 flex flex-col items-center justify-center">
                       {item.icon}

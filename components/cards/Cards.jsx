@@ -19,9 +19,12 @@ import {
   SiStyledcomponents,
   SiNextdotjs,
   SiVite,
-  SiFirebase,
 } from "react-icons/si";
-import { BiLogoNetlify, BiLogoVisualStudio } from "react-icons/bi";
+import {
+  BiLogoNetlify,
+  BiLogoVisualStudio,
+  BiLogoFirebase,
+} from "react-icons/bi";
 
 // components
 import Card from "./Card";
@@ -76,7 +79,7 @@ const journey = [
       { icon: <SiVite />, label: "Vite" },
       { icon: <FaNpm />, label: "Npm" },
       { icon: <FaYarn />, label: "Yarn" },
-      { icon: <SiFirebase />, label: "Firebase" },
+      { icon: <BiLogoFirebase />, label: "Firebase" },
       { icon: <FaFigma />, label: "Figma" },
       { icon: <BiLogoNetlify />, label: "Netlify" },
     ],
@@ -89,7 +92,7 @@ const journey = [
     type: "education",
     institution: "University of Lomza",
     logoUrl: "/assets/journey/education/al.svg",
-    qualification: "Master's degree | Computer Science",
+    qualification: "Master's degree",
     duration: "Mar 2025 - Jun 2026",
     description:
       "Learned full-stack development concepts,focusing on React, Node.js and APIs. Completed hands-on projects to solidify skills.",
@@ -98,7 +101,7 @@ const journey = [
     type: "education",
     institution: "University of Lomza",
     logoUrl: "/assets/journey/education/al.svg",
-    qualification: "Bachelor degree | Computer Science",
+    qualification: "Bachelor degree",
     duration: "Oct 2020 - Feb 2024",
     description:
       "Learned full-stack development concepts,focusing on React, Node.js and APIs. Completed hands-on projects to solidify skills.",
