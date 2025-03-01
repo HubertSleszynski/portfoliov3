@@ -8,7 +8,7 @@ import Hero from "@/components/Hero";
 import Journey from "@/components/Journey";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
-import Work from "@/components/Work";
+import Work from "@/components/work/Work";
 import { useEffect } from "react";
 
 const Home = () => {
@@ -27,7 +27,7 @@ const Home = () => {
       <About />
       <Journey />
       <Work />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </>

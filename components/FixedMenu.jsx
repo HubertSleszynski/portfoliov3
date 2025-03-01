@@ -44,7 +44,7 @@ const FixedMenu = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.2 }}
             className="relative w-full max-w-md md:max-w-none h-[400px] bottom-[28rem] xl:bottom-[21.2rem] px-4 pointer-events-auto"
           >
             <div className="w-full h-full bg-white shadow-custom max-w-[1170px] mx-auto py-12 xl:py-12 px-12 xl:px-32 flex gap-12 items-center rounded-lg">

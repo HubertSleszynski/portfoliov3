@@ -8,7 +8,7 @@ const statsData = [
     text: "Yrs. of Experience",
   },
   {
-    endCountNum: 99,
+    endCountNum: 40,
     endCountText: "+",
     text: "Websites Built",
   },

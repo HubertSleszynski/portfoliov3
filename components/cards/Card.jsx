@@ -22,8 +22,6 @@ const Card = ({
           : ""
       }`}
     >
-      {/* <div className="w-full h-[300px] flex items-center top-12 sticky overflow-hidden"> */}
-      {/* className={`w-full lg:h-[270px] h-[270px] border border-accent/20 bg-[#f4ffff] rounded-lg ${type === 'skill' ? 'h-[300px]' : ''}`} */}
       <div
         className={`w-full h-[270px] border border-accent/20 bg-[#f4ffff] rounded-lg ${
           type === "skill"
