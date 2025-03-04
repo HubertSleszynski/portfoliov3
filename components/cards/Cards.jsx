@@ -36,7 +36,7 @@ const journey = [
     position: "Junior Frontend Developer",
     duration: "Sep 2024 - Present",
     description:
-      "I was working with the Ceros SDK, as well as developing eCommerce solutions on the Shopify platform. Additionally, I created dynamic and responsive websites using React and Next.js, ensuring high performance and seamless user experiences.",
+      "I am working with the Ceros SDK, as well as developing eCommerce solutions on the Shopify platform. Additionally, I created dynamic and responsive websites using React and Next.js, ensuring high performance and seamless user experiences.",
   },
   {
     type: "experience",
@@ -107,7 +107,7 @@ const journey = [
     company: "Shopify",
     logoUrl: "/assets/journey/certifications/shopify.svg",
     course: "Shopify Development Fundamentals",
-    duration: "Feb 2025 - Feb 2027",
+    duration: "Feb 2025",
     description:
       "I obtained the Shopify Development Fundamentals certification, which provided me with a solid understanding of building and customizing eCommerce stores on the Shopify platform. This certification enhanced my skills in developing themes, integrating apps, and optimizing the Shopify user experience.",
   },

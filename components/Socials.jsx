@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
+import { FaLinkedin, FaGithub, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const socials = [
   {
@@ -10,6 +9,14 @@ const socials = [
   {
     icon: <FaLinkedin />,
     path: "https://www.linkedin.com/in/hubert-%C5%9Bleszy%C5%84ski-74b755231/",
+  },
+  {
+    icon: <FaFacebook />,
+    path: "https://www.facebook.com/hubert.sleszynski",
+  },
+  {
+    icon: <FaInstagram />,
+    path: "https://www.instagram.com/hrsleszynski/",
   },
 ];
 

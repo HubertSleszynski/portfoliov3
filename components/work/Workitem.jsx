@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 const WorkItem = ({ href, category, img, title, tech, github }) => {
   return (
     <>
-      <Link href={href}>
+      <Link href={href} target="_blank">
         <div className="relative overflow-hidden w-full h-[300px] mb-6 p-8 rounded-[30px] flex justify-center items-center bg-[#f4f4f4]">
           <Badge className="bg-primary text-base text-white absolute top-6 left-6 capitalize z-40">
             {category}
@@ -26,7 +26,7 @@ const WorkItem = ({ href, category, img, title, tech, github }) => {
           <h3 className="h3">{title}</h3>
           <p className="max-w-[660px] text-base text-primary/60 my-2">{tech}</p>
         </div>
-        <Link href={github}>
+        <Link href={github} target="_blank">
           <button className="bg-accent text-white w-[48px] h-[48px] flex justify-center items-center rounded-full ">
             <FaGithub className="text-2xl" />
           </button>

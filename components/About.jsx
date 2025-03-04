@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import AnimatedText from "./AnimatedText";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -80,6 +81,28 @@ const About = () => {
                 <div className="uppercase font-bold text-primary">Email</div>
                 <p>h.r.sleszynski@gmail.com</p>
               </div>
+              <Link
+                href="https://github.com/HubertSleszynski"
+                className="max-w-max"
+                target="_blank"
+              >
+                <div className="uppercase font-bold text-primary">Github</div>
+                <p className="underline hover:text-accent cursor-pointer">
+                  HubertSleszynski
+                </p>
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/hubert-%C5%9Bleszy%C5%84ski-74b755231/"
+                className="max-w-max"
+                target="_blank"
+              >
+                <div className="uppercase font-bold text-primary ">
+                  Linkedin
+                </div>
+                <p className="underline hover:text-accent cursor-pointer">
+                  Hubert Śleszyński
+                </p>
+              </Link>
             </div>
           </div>
         </div>

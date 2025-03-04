@@ -5,7 +5,6 @@ import { Link as ScrollLink } from "react-scroll";
 import RotatingShape from "./RotatingShape";
 import Header from "./Header";
 import Stats from "./stats/Stats";
-// import CVENG from "../public/assets/about/Hubert Śleszyński-en.pdf";
 
 const Hero = () => {
   return (
