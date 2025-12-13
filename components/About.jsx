@@ -9,13 +9,13 @@ const About = () => {
       <div className="container mx-auto h-full">
         <div className="h-full flex justify-center items-center">
           <div className="hidden xl:flex flex-1 pl-8">
-            <div className="relative  w-full max-w-[380px]">
+            <div className="relative  w-full max-w-[420px]">
               <div className="w-[160px] h-[160px] absolute bg-accent -top-5 -left-5 -z-10"></div>
               <div className="bg-[#e5f8f6] rounded-tl-[8px] rounded-tr-[120px] w-full m-h-[480px] flex justify-center items-end">
                 <Image
                   src="/assets/about/img.png"
                   alt=""
-                  width={350}
+                  width={400}
                   height={478}
                   quality={100}
                   priority

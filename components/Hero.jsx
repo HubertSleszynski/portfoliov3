@@ -50,7 +50,7 @@ const Hero = () => {
           <Stats />
         </div>
         <div className="hidden xl:flex w-[55vw] h-[800px] absolute top-0 right-0 bg-accent">
-          <div className="absolute w-[558px] h-[642px] left-[6.5vw] bottom-0 z-40">
+          <div className="absolute w-[750px] h-[796px] left-[0.4vw] -bottom-12 z-40">
             <Image
               src="/assets/hero/dev.png"
               alt=""
