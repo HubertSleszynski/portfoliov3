@@ -14,7 +14,7 @@ const Footer = () => {
             />
           </div>
           <div className="text-white/70 font-light">
-            Copyright &copy; 2025. All rights reserved.
+            Copyright &copy; 2026. All rights reserved.
           </div>
         </div>
       </div>

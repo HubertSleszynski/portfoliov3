@@ -8,7 +8,7 @@ const socials = [
   },
   {
     icon: <FaLinkedin />,
-    path: "https://www.linkedin.com/in/hubert-%C5%9Bleszy%C5%84ski-74b755231/",
+    path: "https://www.linkedin.com/in/hubertsleszynski",
   },
   {
     icon: <FaFacebook />,

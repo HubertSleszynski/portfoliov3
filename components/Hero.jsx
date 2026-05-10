@@ -42,7 +42,7 @@ const Hero = () => {
               <button className="btn btn-accent mb-8">Contact me</button>
             </ScrollLink>
             <button className="btn btn-primary mb-8">
-              <a download href="/assets/about/Hubert Śleszyński-en.pdf">
+              <a download href="/assets/about/Hubert_Sleszynski_CV.pdf">
                 Download CV
               </a>
             </button>

@@ -40,7 +40,7 @@ const About = () => {
                   />
                 </motion.div>
                 <div className="absolute text-white text-center">
-                  <div className="text-5xl font-bold leading-none">2+</div>
+                  <div className="text-5xl font-bold leading-none">3+</div>
                   <div className="text-center leading-none">
                     Years of
                     <br />
@@ -67,7 +67,7 @@ const About = () => {
             <div className="flex flex-col gap-8 lg:flex-row lg:flex-wrap items-center max-w-max mx-auto xl:mx-0">
               <div className="max-w-max">
                 <div className="uppercase font-bold text-primary">Age</div>
-                <p>25 Years</p>
+                <p>26 Years</p>
               </div>
               <div className="max-w-max">
                 <div className="uppercase font-bold text-primary">Live In</div>
@@ -75,7 +75,7 @@ const About = () => {
               </div>
               <div className="max-w-max">
                 <div className="uppercase font-bold text-primary">Phone</div>
-                <p>882 771 289</p>
+                <p>+48 882 771 289</p>
               </div>
               <div className="max-w-max">
                 <div className="uppercase font-bold text-primary">Email</div>
@@ -92,7 +92,7 @@ const About = () => {
                 </p>
               </Link>
               <Link
-                href="https://www.linkedin.com/in/hubert-%C5%9Bleszy%C5%84ski-74b755231/"
+                href="https://linkedin.com/in/hubertsleszynski"
                 className="max-w-max"
                 target="_blank"
               >

@@ -6,6 +6,7 @@ import {
   FaCss3Alt,
   FaSass,
   FaReact,
+  FaNodeJs,
   FaGithub,
   FaGitAlt,
   FaFigma,
@@ -16,9 +17,12 @@ import {
   SiTailwindcss,
   SiJavascript,
   SiTypescript,
-  SiStyledcomponents,
   SiNextdotjs,
   SiVite,
+  SiExpress,
+  SiPostgresql,
+  SiPostman,
+  SiPrisma  
 } from "react-icons/si";
 import {
   BiLogoNetlify,
@@ -49,21 +53,35 @@ const journey = [
   },
   {
     type: "skill",
-    name: "Technologies",
+    name: "Frontend",
     icon: <FaHtml5 />,
     icons: [
-      { icon: <FaHtml5 />, label: "Html" },
-      { icon: <FaCss3Alt />, label: "Css" },
+      { icon: <FaHtml5 />, label: "HTML5" },
+      { icon: <FaCss3Alt />, label: "CSS3" },
       { icon: <FaSass />, label: "Sass" },
       { icon: <SiTailwindcss />, label: "Tailwind" },
-      { icon: <SiStyledcomponents />, label: "Styled Components" },
       { icon: <SiJavascript />, label: "Javascript" },
       { icon: <SiTypescript />, label: "Typescript" },
       { icon: <FaReact />, label: "React" },
-      { icon: <SiNextdotjs />, label: "Next" },
+      { icon: <SiNextdotjs />, label: "Next.js" },
+
     ],
     duration: "",
-    description: "TEST1.",
+    description: "",
+  },
+  {
+    type: "skill",
+    name: "Backend",
+    icon: <FaHtml5 />,
+    icons: [
+            { icon: <FaNodeJs />, label: "Node.js" },
+      { icon: <SiExpress  />, label: "Express.js" },
+      { icon: <SiPostgresql />, label: "PostgreSQL" },
+      { icon: <SiPrisma  />, label: "Prisma" },
+    ],
+    duration: "",
+    description:
+      "",
   },
   {
     type: "skill",
@@ -78,11 +96,11 @@ const journey = [
       { icon: <FaYarn />, label: "Yarn" },
       { icon: <BiLogoFirebase />, label: "Firebase" },
       { icon: <FaFigma />, label: "Figma" },
-      { icon: <BiLogoNetlify />, label: "Netlify" },
+      { icon: <SiPostman />, label: "Postman" },
     ],
     duration: "",
     description:
-      "Crafted structured web content using HTML effectively for modern websites, ensuring semanting markup and accessibility.",
+      "",
   },
   {
     type: "education",
